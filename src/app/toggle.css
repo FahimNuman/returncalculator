@@ -1,0 +1,18 @@
+.toggle-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    color: #555;
+  }
+  
+  .toggle-btn.active {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
