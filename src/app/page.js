@@ -41,10 +41,10 @@ export default function Home() {
 
   return (
     <>
-      <div className='text-center bg-gray-100 p-4'>Return Calculator</div>
+      <div className='text-center bg-teal-400 p-4'>Return Calculator</div>
       <section className="py-12 flex flex-wrap justify-center bg-teal-100">
-        <div className="w-full sm:w-8/12 sm:mr-6 mb-6 sm:mb-0">
-          <div className="bg-white rounded-t-2xl rounded-b-lg shadow-md p-4 sm:p-8 bg-green-50">
+        <div className="w-full sm:w-4/12 sm:mr-6 mb-6 sm:mb-0">
+          <div className="bg-white rounded-t-2xl rounded-b-lg shadow-md p-4 sm:p-8 bg-teal-50">
             <h2 className="text-xs sm:text-2xl font-bold mb-4 text-teal-700">Select Property</h2>
             <select
               id="property"
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full sm:w-auto sm:max-w-lg gap-y-8">
-          <div className="bg-white rounded-lg shadow-md p-8 sm:p-12 bg-green-50">
+          <div className="bg-white rounded-lg shadow-md p-8 sm:p-12 bg-teal-50">
             <h2 className="text-xl sm:text-2xl font-bold mb-6 text-teal-700 border rounded-lg bg-emerald-100 text-center">Projected Income</h2>
             <p className="text-green-700 text-2xl text-center">Purchase of USD {initialInvestment} = {totalTokens.toFixed(0)} Tokens</p>
             <p className="text-green-700 text-center mt-4">Estimated rental yield to be received in {period} year(s): <span className='text-2xl'>USD {initialInvestment  * (rentalYield / 100) * period}</span> <br /> ({((initialInvestment * (rentalYield / 100) * period) / 100) * 100} Tokens)</p>
